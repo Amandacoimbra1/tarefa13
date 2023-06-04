@@ -1,0 +1,39 @@
+*{
+    padding: 1%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 2em;
+    text-align: center;
+}
+
+p{
+    color:rgb(134, 28, 233);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 20px #d6ec0d;
+    text-align: center;
+}
+
+img{
+    animation: fadeInFadeOut 2s linear infinite;
+}
+
+@keyframes fadeInFadeOut {
+    50%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
